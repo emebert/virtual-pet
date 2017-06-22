@@ -32,12 +32,11 @@ public class VirtualPet {
 		return boredom >= 20;
 	}
 
-
 	void tick() {
 		hunger = hunger + 5;
 		thirst = thirst + 5;
 		boredom = boredom + 5;
-	
+
 	}
 
 }
